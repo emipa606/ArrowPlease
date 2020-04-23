@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>Bowshort_Flame</defName>
     <label>short bow(flaming arrow)</label>
@@ -71,7 +70,7 @@
         <glowRadius>3</glowRadius>
         <glowColor>(252,187,113,0)</glowColor>
       </li>
-			<li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_FireOverlay">
         <fireSize>0.4</fireSize>
         <offset>(0,0,0)</offset>
@@ -86,7 +85,6 @@
     </projectile>
     <tickerType>Normal</tickerType>
   </ThingDef>
-
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>Bowrecurve_Flame</defName>
     <label>recurve bow(flaming arrow)</label>
@@ -158,7 +156,7 @@
         <glowRadius>3</glowRadius>
         <glowColor>(252,187,113,0)</glowColor>
       </li>
-			<li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_FireOverlay">
         <fireSize>0.4</fireSize>
         <offset>(0,0,0)</offset>
@@ -174,7 +172,6 @@
     </projectile>
     <tickerType>Normal</tickerType>
   </ThingDef>
-
   <ThingDef ParentName="BaseWeaponNeolithic">
     <defName>Bowgreat_Flame</defName>
     <label>greatbow(flaming arrow)</label>
@@ -213,7 +210,7 @@
         <range>28</range>
         <soundCast>Bow_Large</soundCast>
         <targetParams>
-		<canTargetLocations>true</canTargetLocations>
+          <canTargetLocations>true</canTargetLocations>
         </targetParams>
       </li>
     </verbs>
@@ -247,7 +244,7 @@
         <glowRadius>3</glowRadius>
         <glowColor>(252,187,113,0)</glowColor>
       </li>
-			<li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_FireOverlay">
         <fireSize>0.4</fireSize>
         <offset>(0,0,0)</offset>
@@ -264,6 +261,4 @@
     </projectile>
     <tickerType>Normal</tickerType>
   </ThingDef>
-
-  
 </Defs>

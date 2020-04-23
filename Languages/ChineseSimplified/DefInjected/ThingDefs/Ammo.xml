@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <Trebuchet_ShellsN.label>抛石机弹药</Trebuchet_ShellsN.label>
   <Trebuchet_ShellsN.description>一颗供抛石机发射的石块。</Trebuchet_ShellsN.description>
   <ShellsN_Trebuchet.label>抛石机弹药</ShellsN_Trebuchet.label>
@@ -16,5 +15,4 @@
   <Catapult_ShellsF.label>燃烧投石器弹药</Catapult_ShellsF.label>
   <Catapult_ShellsF.description>一团供投石器发射的燃烧石块。</Catapult_ShellsF.description>
   <ShellsF_Catapult.label>燃烧投石器弹药</ShellsF_Catapult.label>
-  
 </LanguageData>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Combat Extended</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!-- === Turret_BallistaGun === -->
+        <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
+          <defName>Turret_BallistaGun</defName>
+          <statBases>
+            <RangedWeapon_Cooldown>4.25</RangedWeapon_Cooldown>
+            <SightsEfficiency>1.00</SightsEfficiency>
+            <ShotSpread>0.01</ShotSpread>
+            <SwayFactor>3.31</SwayFactor>
+          </statBases>
+          <Properties>
+            <recoilAmount>0</recoilAmount>
+            <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bolt_Ballista</defaultProjectile>
+            <warmupTime>1.25</warmupTime>
+            <range>42</range>
+            <minRange>1</minRange>
+            <soundCast>Ballista_Launch</soundCast>
+            <recoilPattern>Mounted</recoilPattern>
+            <requireLineOfSight>true</requireLineOfSight>
+            <targetParams>
+              <canTargetLocations>true</canTargetLocations>
+            </targetParams>
+          </Properties>
+          <AmmoUser>
+            <magazineSize>1</magazineSize>
+            <reloadTime>3</reloadTime>
+          </AmmoUser>
+          <FireModes>
+            <aiAimMode>AimedShot</aiAimMode>
+            <noSnapshot>true</noSnapshot>
+            <noSingleShot>true</noSingleShot>
+          </FireModes>
+          <weaponTags>
+            <li>TurretGun</li>
+          </weaponTags>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Turret_BallistaGun"]</xpath>
+          <value>
+            <specialDisplayRadius>42</specialDisplayRadius>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="Turret_BallistaGun"]/statBases</xpath>
+          <value>
+            <ShootingAccuracyTurret>0.999</ShootingAccuracyTurret>
+            <AimingAccuracy>1.0</AimingAccuracy>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

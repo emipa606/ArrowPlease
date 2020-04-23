@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <Bowshort_Flame.label>短弓(火箭)</Bowshort_Flame.label>
   <Bowshort_Flame.description>一把简单的短单弓，由一条木头制成，可以让你射出火箭。</Bowshort_Flame.description>
   <Arrowshort_Flame.label>短弓火箭</Arrowshort_Flame.label>
@@ -10,5 +9,4 @@
   <Bowgreat_Flame.label>长弓(火箭)</Bowgreat_Flame.label>
   <Bowgreat_Flame.description>一把威力强大的大弓，能够射击重型箭矢至非常远的距离外。也可以用来射出火箭。</Bowgreat_Flame.description>
   <Arrowgreat_Flame.label>长弓火箭</Arrowgreat_Flame.label>
-  
 </LanguageData>

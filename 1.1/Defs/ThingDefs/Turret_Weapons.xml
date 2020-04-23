@@ -78,7 +78,7 @@
       <turretGunDef>Turret_BallistaGun</turretGunDef>
       <turretBurstWarmupTime>0</turretBurstWarmupTime>
       <turretBurstCooldownTime>4.25</turretBurstCooldownTime>
-	  <turretTopDrawSize>1.7</turretTopDrawSize>
+      <turretTopDrawSize>1.7</turretTopDrawSize>
     </building>
     <placeWorkers>
       <li>PlaceWorker_TurretTop</li>
@@ -223,7 +223,7 @@
       <turretGunDef>Turret_TriplecrossbowGun</turretGunDef>
       <turretBurstWarmupTime>1.05</turretBurstWarmupTime>
       <turretBurstCooldownTime>4.95</turretBurstCooldownTime>
-	  <turretTopDrawSize>3.2</turretTopDrawSize>
+      <turretTopDrawSize>3.2</turretTopDrawSize>
     </building>
     <placeWorkers>
       <li>PlaceWorker_TurretTop</li>
@@ -405,7 +405,7 @@
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <building>
       <turretGunDef>Turret_TrebuchetGun</turretGunDef>
-	  <turretTopDrawSize>6</turretTopDrawSize>
+      <turretTopDrawSize>6</turretTopDrawSize>
       <buildingTags>
         <li>Artillery_BaseDestroyer</li>
       </buildingTags>
@@ -555,10 +555,10 @@
     <defName>Turret_Catapult</defName>
     <label>catapult</label>
     <description>A siege weapon that can shoot stones toward your enemies.</description>
-    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>    
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <building>
       <turretGunDef>Turret_CatapultGun</turretGunDef>
-	  <turretTopDrawSize>4</turretTopDrawSize>
+      <turretTopDrawSize>4</turretTopDrawSize>
       <buildingTags>
         <li>Artillery_BaseDestroyer</li>
       </buildingTags>

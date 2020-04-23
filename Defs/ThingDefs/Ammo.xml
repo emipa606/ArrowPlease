@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ThingDef Name="Trebuchet_ShellsBase" ParentName="ResourceBase" Abstract="True">
     <soundInteract>Stone_Drop</soundInteract>
     <soundDrop>Stone_Drop</soundDrop>
@@ -25,7 +24,6 @@
       <li>Siege_Engine</li>
     </researchPrerequisites>
   </ThingDef>
-
   <ThingDef ParentName="Trebuchet_ShellsBase">
     <defName>Trebuchet_ShellsN</defName>
     <label>trebuchet projectile</label>
@@ -36,7 +34,6 @@
     </graphicData>
     <projectileWhenLoaded>ShellsN_Trebuchet</projectileWhenLoaded>
   </ThingDef>
-  
   <ThingDef ParentName="BaseBullet">
     <defName>ShellsN_Trebuchet</defName>
     <label>trebuchet projectile</label>
@@ -60,7 +57,6 @@
       <preExplosionSpawnChance>1.0</preExplosionSpawnChance>
     </projectile>
   </ThingDef>
-
   <ThingDef ParentName="Trebuchet_ShellsBase">
     <defName>Trebuchet_ShellsF</defName>
     <label>flaming trebuchet projectile</label>
@@ -91,7 +87,6 @@
       <Cloth>20</Cloth>
     </costList>
   </ThingDef>
-  
   <ThingDef ParentName="BaseBullet">
     <defName>ShellsF_Trebuchet</defName>
     <label>flaming trebuchet projectile</label>
@@ -120,14 +115,13 @@
         <glowRadius>4</glowRadius>
         <glowColor>(252,187,113,0)</glowColor>
       </li>
-			<li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_FireOverlay">
         <fireSize>1.0</fireSize>
         <offset>(0,0,0)</offset>
       </li>
     </comps>
   </ThingDef>
-
   <ThingDef ParentName="Trebuchet_ShellsBase">
     <defName>Trebuchet_ShellsH</defName>
     <label>human trebuchet projectile</label>
@@ -154,7 +148,6 @@
     </statBases>
     <projectileWhenLoaded>ShellsH_Trebuchet</projectileWhenLoaded>
   </ThingDef>
-  
   <ThingDef ParentName="BaseBullet">
     <defName>ShellsH_Trebuchet</defName>
     <label>human trebuchet projectile</label>
@@ -184,133 +177,4 @@
 
 --------------------------------------------------------------------------------------------------
 
-  <ThingDef Name="Catapult_ShellsBase" ParentName="ResourceBase" Abstract="True">
-    <soundInteract>Stone_Drop</soundInteract>
-    <soundDrop>Stone_Drop</soundDrop>
-    <tickerType>Normal</tickerType>
-    <stackLimit>10</stackLimit>
-    <tradeability>None</tradeability>
-    <techLevel>Medieval</techLevel>
-    <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <MarketValue>0</MarketValue>
-      <Mass>10</Mass>
-      <Flammability>0</Flammability>
-      <DeteriorationRate>0</DeteriorationRate>
-    </statBases>
-    <thingCategories>
-      <li>Catapult_Shells</li>
-    </thingCategories>
-    <tradeTags>
-      <li>Catapult_Shells</li>
-    </tradeTags>
-    <researchPrerequisites>
-      <li>Siege_Engine</li>
-    </researchPrerequisites>
-  </ThingDef>
-
-  <ThingDef ParentName="Catapult_ShellsBase">
-    <defName>Catapult_ShellsN</defName>
-    <label>catapult projectiles</label>
-    <description>A bunch of small stone chunks shaped for catapult to launch.</description>
-    <graphicData>
-      <texPath>Things/Projectile/Stones_Catapult</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-    </graphicData>
-    <projectileWhenLoaded>ShellsN_Catapult</projectileWhenLoaded>
-  </ThingDef>
-  
-  <ThingDef ParentName="BaseBullet">
-    <defName>ShellsN_Catapult</defName>
-    <label>catapult projectiles</label>
-    <graphicData>
-      <texPath>Things/Projectile/Stone_Catapult</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>TransparentPostLight</shaderType>
-      <drawSize>2.0</drawSize>
-    </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <damageDef>Trebuchet</damageDef>
-      <damageAmountBase>22</damageAmountBase>
-      <speed>30</speed>
-      <explosionRadius>2.5</explosionRadius>
-      <flyOverhead>true</flyOverhead>
-      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-      <soundExplode>MortarBomb_Explode</soundExplode>
-      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-      <soundAmbient>MortarRound_Ambient</soundAmbient>
-      <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
-      <preExplosionSpawnChance>1.0</preExplosionSpawnChance>
-    </projectile>
-  </ThingDef>
-
-  <ThingDef ParentName="Catapult_ShellsBase">
-    <defName>Catapult_ShellsF</defName>
-    <label>flaming catapult projectiles</label>
-    <description>A bunch of small stone chunks, covered with inflammable components, shaped for catapult to launch.</description>
-    <graphicData>
-      <texPath>Things/Projectile/StonesF_Catapult</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-    </graphicData>
-    <statBases>
-      <Mass>15</Mass>
-      <Flammability>1.0</Flammability>
-    </statBases>
-    <projectileWhenLoaded>ShellsF_Catapult</projectileWhenLoaded>
-    <recipeMaker>
-      <workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
-      <effectWorking>CutStone</effectWorking>
-      <soundWorking>Recipe_CookMeal</soundWorking>
-      <workAmount>800</workAmount>
-      <targetCountAdjustment>1</targetCountAdjustment>
-      <workSkill>Crafting</workSkill>
-      <recipeUsers>
-        <li>TableStonecutter</li>
-      </recipeUsers>
-    </recipeMaker>
-    <costList>
-      <Catapult_ShellsN>1</Catapult_ShellsN>
-      <WoodLog>10</WoodLog>
-      <Cloth>20</Cloth>
-    </costList>
-  </ThingDef>
-  
-  <ThingDef ParentName="BaseBullet">
-    <defName>ShellsF_Catapult</defName>
-    <label>flaming catapult projectiles</label>
-    <graphicData>
-      <texPath>Things/Projectile/StoneF_Catapult</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>2.0</drawSize>
-      <shaderType>TransparentPostLight</shaderType>
-    </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <damageDef>Flame</damageDef>
-      <damageAmountBase>22</damageAmountBase>
-      <speed>30</speed>
-      <explosionRadius>2.9</explosionRadius>
-      <flyOverhead>true</flyOverhead>
-      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-      <soundExplode>MortarBomb_Explode</soundExplode>
-      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-      <soundAmbient>MortarRound_Ambient</soundAmbient>
-      <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
-      <preExplosionSpawnChance>1.0</preExplosionSpawnChance>
-      <ai_IsIncendiary>true</ai_IsIncendiary>
-    </projectile>
-    <comps>
-      <li Class="CompProperties_Glower">
-        <glowRadius>4</glowRadius>
-        <glowColor>(252,187,113,0)</glowColor>
-      </li>
-			<li Class="CompProperties_Forbiddable"/>
-      <li Class="CompProperties_FireOverlay">
-        <fireSize>1.0</fireSize>
-        <offset>(0,0,0)</offset>
-      </li>
-    </comps>
-  </ThingDef>
-
-</Defs>
+  <ThingDef Name="Catapult_ShellsBase" ParentName="ResourceBase" Abstract="True"><soundInteract>Stone_Drop</soundInteract><soundDrop>Stone_Drop</soundDrop><tickerType>Normal</tickerType><stackLimit>10</stackLimit><tradeability>None</tradeability><techLevel>Medieval</techLevel><statBases><MaxHitPoints>200</MaxHitPoints><MarketValue>0</MarketValue><Mass>10</Mass><Flammability>0</Flammability><DeteriorationRate>0</DeteriorationRate></statBases><thingCategories><li>Catapult_Shells</li></thingCategories><tradeTags><li>Catapult_Shells</li></tradeTags><researchPrerequisites><li>Siege_Engine</li></researchPrerequisites></ThingDef><ThingDef ParentName="Catapult_ShellsBase"><defName>Catapult_ShellsN</defName><label>catapult projectiles</label><description>A bunch of small stone chunks shaped for catapult to launch.</description><graphicData><texPath>Things/Projectile/Stones_Catapult</texPath><graphicClass>Graphic_Random</graphicClass></graphicData><projectileWhenLoaded>ShellsN_Catapult</projectileWhenLoaded></ThingDef><ThingDef ParentName="BaseBullet"><defName>ShellsN_Catapult</defName><label>catapult projectiles</label><graphicData><texPath>Things/Projectile/Stone_Catapult</texPath><graphicClass>Graphic_Single</graphicClass><shaderType>TransparentPostLight</shaderType><drawSize>2.0</drawSize></graphicData><thingClass>Projectile_Explosive</thingClass><projectile><damageDef>Trebuchet</damageDef><damageAmountBase>22</damageAmountBase><speed>30</speed><explosionRadius>2.5</explosionRadius><flyOverhead>true</flyOverhead><soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof><soundExplode>MortarBomb_Explode</soundExplode><soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate><soundAmbient>MortarRound_Ambient</soundAmbient><preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef><preExplosionSpawnChance>1.0</preExplosionSpawnChance></projectile></ThingDef><ThingDef ParentName="Catapult_ShellsBase"><defName>Catapult_ShellsF</defName><label>flaming catapult projectiles</label><description>A bunch of small stone chunks, covered with inflammable components, shaped for catapult to launch.</description><graphicData><texPath>Things/Projectile/StonesF_Catapult</texPath><graphicClass>Graphic_Random</graphicClass></graphicData><statBases><Mass>15</Mass><Flammability>1.0</Flammability></statBases><projectileWhenLoaded>ShellsF_Catapult</projectileWhenLoaded><recipeMaker><workSpeedStat>UnskilledLaborSpeed</workSpeedStat><effectWorking>CutStone</effectWorking><soundWorking>Recipe_CookMeal</soundWorking><workAmount>800</workAmount><targetCountAdjustment>1</targetCountAdjustment><workSkill>Crafting</workSkill><recipeUsers><li>TableStonecutter</li></recipeUsers></recipeMaker><costList><Catapult_ShellsN>1</Catapult_ShellsN><WoodLog>10</WoodLog><Cloth>20</Cloth></costList></ThingDef><ThingDef ParentName="BaseBullet"><defName>ShellsF_Catapult</defName><label>flaming catapult projectiles</label><graphicData><texPath>Things/Projectile/StoneF_Catapult</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>2.0</drawSize><shaderType>TransparentPostLight</shaderType></graphicData><thingClass>Projectile_Explosive</thingClass><projectile><damageDef>Flame</damageDef><damageAmountBase>22</damageAmountBase><speed>30</speed><explosionRadius>2.9</explosionRadius><flyOverhead>true</flyOverhead><soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof><soundExplode>MortarBomb_Explode</soundExplode><soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate><soundAmbient>MortarRound_Ambient</soundAmbient><preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef><preExplosionSpawnChance>1.0</preExplosionSpawnChance><ai_IsIncendiary>true</ai_IsIncendiary></projectile><comps><li Class="CompProperties_Glower"><glowRadius>4</glowRadius><glowColor>(252,187,113,0)</glowColor></li><li Class="CompProperties_Forbiddable" /><li Class="CompProperties_FireOverlay"><fireSize>1.0</fireSize><offset>(0,0,0)</offset></li></comps></ThingDef></Defs>

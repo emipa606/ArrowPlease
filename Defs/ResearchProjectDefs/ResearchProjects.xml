@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ResearchProjectDef>
     <defName>Crossbow</defName>
     <label>crossbow</label>
@@ -13,7 +12,6 @@
     <researchViewX>4</researchViewX>
     <researchViewY>5</researchViewY>
   </ResearchProjectDef>
-
   <ResearchProjectDef>
     <defName>Siege_Engine</defName>
     <label>siege engine</label>
@@ -26,5 +24,4 @@
     <researchViewX>4</researchViewX>
     <researchViewY>4.5</researchViewY>
   </ResearchProjectDef>
-
 </Defs>

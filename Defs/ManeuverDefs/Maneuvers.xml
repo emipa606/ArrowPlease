@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <ManeuverDef>
     <defName>TorchBurn</defName>
     <requiredCapacity>TorchBurn</requiredCapacity>
@@ -14,7 +13,6 @@
     <combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
     <combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
-
   <ManeuverDef>
     <defName>TorchFlame</defName>
     <requiredCapacity>TorchFlame</requiredCapacity>
@@ -28,5 +26,4 @@
     <combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
     <combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
-
 </Defs>

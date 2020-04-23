@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  
   <Ranged_Torch.label>throwing torch</Ranged_Torch.label>
   <Ranged_Torch.description>A tool for lighting an area. But why not share your fire with your enemies? Torch is really not something good for throwing, though.</Ranged_Torch.description>
   <Torch_Torch.label>torch</Torch_Torch.label>
@@ -13,5 +12,4 @@
   <Ranged_Blowgun.label>blowgun</Ranged_Blowgun.label>
   <Ranged_Blowgun.description>A simple tube used to launch darts. Dart is nearly harmless itself, but the poison on the dart can paralyzed enemies quickly, and also, can be fatal.</Ranged_Blowgun.description>
   <Dart_Blowgun.label>dart</Dart_Blowgun.label>
-  
 </LanguageData>

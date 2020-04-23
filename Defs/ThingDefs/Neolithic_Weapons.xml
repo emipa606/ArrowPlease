@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<ThingDef ParentName="BaseMeleeWeapon">
+  <ThingDef ParentName="BaseMeleeWeapon">
     <defName>Ranged_Torch</defName>
     <label>throwing torch</label>
     <description>A tool for lighting an area. But why not share your fire with your enemies? Torch is really not something good for throwing, though.</description>
@@ -30,15 +29,14 @@
     <equippedAngleOffset>-45</equippedAngleOffset>
     <tickerType>Normal</tickerType>
     <costList>
-	
-        <WoodLog>30</WoodLog>
+      <WoodLog>30</WoodLog>
     </costList>
     <comps>
       <li Class="CompProperties_Glower">
         <glowRadius>6</glowRadius>
         <glowColor>(252,187,113,0)</glowColor>
       </li>
-			<li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Refuelable">
         <fuelConsumptionRate>1.8</fuelConsumptionRate>
         <fuelCapacity>20.0</fuelCapacity>
@@ -122,14 +120,13 @@
         <glowRadius>6</glowRadius>
         <glowColor>(252,187,113,0)</glowColor>
       </li>
-			<li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_FireOverlay">
         <fireSize>0.4</fireSize>
         <offset>(0,0,0)</offset>
       </li>
     </comps>
   </ThingDef>
-
   <ThingDef ParentName="BaseWeapon">
     <defName>Ranged_Slinger</defName>
     <label>sling</label>
@@ -139,12 +136,12 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Stone_Drop</soundInteract>
-		<costStuffCount>10</costStuffCount>
-		<stuffCategories>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
-		<equippedAngleOffset>-45</equippedAngleOffset>
+    <costStuffCount>10</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <equippedAngleOffset>-45</equippedAngleOffset>
     <statBases>
       <WorkToMake>600</WorkToMake>
       <Mass>0.6</Mass>
@@ -165,7 +162,7 @@
       <li>WeaponsRanged</li>
     </thingCategories>
     <comps>
-      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Forbiddable" />
       <li>
         <compClass>CompColorable</compClass>
       </li>
@@ -185,22 +182,22 @@
       </recipeUsers>
       <unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
     </recipeMaker>
-		<colorGenerator Class="ColorGenerator_Options">
-			<options>
-				<li>
-					<weight>10</weight>
-					<only>(0.4,0.3,0.15)</only>
-				</li>
-				<li>
-					<weight>15</weight>
-					<only>(0.6,0.45,0.18)</only>
-				</li>
-				<li>
-					<weight>20</weight>
-					<only>(0.8,0.6,0.23)</only>
-				</li>
-			</options>
-		</colorGenerator>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>(0.4,0.3,0.15)</only>
+        </li>
+        <li>
+          <weight>15</weight>
+          <only>(0.6,0.45,0.18)</only>
+        </li>
+        <li>
+          <weight>20</weight>
+          <only>(0.8,0.6,0.23)</only>
+        </li>
+      </options>
+    </colorGenerator>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
@@ -236,8 +233,7 @@
       <speed>30</speed>
     </projectile>
   </ThingDef>
-
-	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
     <defName>Ranged_Tomahawk</defName>
     <label>tomahawk</label>
     <description>A small axe that can be used as both ranged or melee purposes. Not quite accurate when thrown, though.</description>
@@ -331,7 +327,6 @@
       <speed>30</speed>
     </projectile>
   </ThingDef>
-
   <ThingDef ParentName="BaseProjectileNeolithic">
     <defName>Dart_Blowgun</defName>
     <label>dart</label>
@@ -367,7 +362,7 @@
       <AccuracyShort>0.62</AccuracyShort>
       <AccuracyMedium>0.42</AccuracyMedium>
       <AccuracyLong>0.28</AccuracyLong>
-      <RangedWeapon_Cooldown>0.55</RangedWeapon_Cooldown> 
+      <RangedWeapon_Cooldown>0.55</RangedWeapon_Cooldown>
     </statBases>
     <weaponTags>
       <li>NeolithicRangedBasic</li>
@@ -400,7 +395,4 @@
       </li>
     </tools>
   </ThingDef>
-
 </Defs>
-
-
