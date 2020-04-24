@@ -9,9 +9,7 @@
     <li>1.1</li>
   </supportedVersions>
   <modDependencies />
-  <loadAfter>
-    <li>CETeam.CombatExtended</li>
-  </loadAfter>
+  <loadAfter />
   <description>Update of ianchen31s mod for RimWorld 1.1
 https://steamcommunity.com/sharedfiles/filedetails/?id=1552903923
 
@@ -22,8 +20,6 @@ https://invite.gg/mlie
 
 Non-steam version:
 https://github.com/emipa606/ArrowPlease
-
-Added CE-support for all hand-held weapons.
 	
 --- Original Description ---
 This mod adds several ranged weapons to Rimworld, including 4 neolithic weapons, 4 medieval weapons(all crossbows), and 4 siege engines, or , manned turrets.
