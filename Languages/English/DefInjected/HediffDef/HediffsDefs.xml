@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <!--<Dart_Blowgun.label>dart toxin</Dart_Blowgun.label>-->
+
+  <Dart_Blowgun.label>dart toxin</Dart_Blowgun.label>
+  <Dart_Blowgun.stages.0.label>initial</Dart_Blowgun.stages.0.label>
+  <Dart_Blowgun.stages.1.label>minor</Dart_Blowgun.stages.1.label>
+  <Dart_Blowgun.stages.2.label>moderate</Dart_Blowgun.stages.2.label>
+  <Dart_Blowgun.stages.3.label>serious</Dart_Blowgun.stages.3.label>
+  <Dart_Blowgun.stages.4.label>extreme</Dart_Blowgun.stages.4.label>
+
+
   <!--<Dart_Blowgun.stages.initial.label>initial</Dart_Blowgun.stages.initial.label>-->
   <!--<Dart_Blowgun.stages.minor.label>minor</Dart_Blowgun.stages.minor.label>-->
   <!--<Dart_Blowgun.stages.moderate.label>moderate</Dart_Blowgun.stages.moderate.label>-->

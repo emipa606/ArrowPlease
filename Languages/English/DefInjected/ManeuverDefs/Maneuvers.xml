@@ -1,5 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <TorchBurn.label>torch burn</TorchBurn.label>
-  <TorchFlame.label>torch flame</TorchFlame.label>
+  <!--<TorchBurn.label>torch burn</TorchBurn.label>-->
+  <!--<TorchFlame.label>torch flame</TorchFlame.label>-->
+
 </LanguageData>

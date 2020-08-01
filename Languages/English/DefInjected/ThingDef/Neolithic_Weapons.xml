@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Ranged_Torch.label>throwing torch</Ranged_Torch.label>
+  <Ranged_Torch.description>A tool for lighting an area. But why not share your fire with your enemies? Torch is really not something good for throwing, though.</Ranged_Torch.description>
+  <Ranged_Torch.tools.0.label>stick</Ranged_Torch.tools.0.label>
+  <Ranged_Torch.tools.1.label>fire</Ranged_Torch.tools.1.label>
+  <Ranged_Torch.tools.2.label>fire</Ranged_Torch.tools.2.label>
+
+  <Torch_Torch.label>torch</Torch_Torch.label>
+
+  <Ranged_Slinger.label>sling</Ranged_Slinger.label>
+  <Ranged_Slinger.description>A piece of cloth, used to shoot stones. Very primitive, but still can cause casualty. Its light weight makes it ideal for hit-and-run.</Ranged_Slinger.description>
+  <Ranged_Slinger.tools.0.label>stone</Ranged_Slinger.tools.0.label>
+
+  <Stone_Slinger.label>stone</Stone_Slinger.label>
+
+  <Ranged_Tomahawk.label>tomahawk</Ranged_Tomahawk.label>
+  <Ranged_Tomahawk.description>A small axe that can be used as both ranged or melee purposes. Not quite accurate when thrown, though.</Ranged_Tomahawk.description>
+  <Ranged_Tomahawk.tools.0.label>handle</Ranged_Tomahawk.tools.0.label>
+  <Ranged_Tomahawk.tools.1.label>poll</Ranged_Tomahawk.tools.1.label>
+  <Ranged_Tomahawk.tools.2.label>edge</Ranged_Tomahawk.tools.2.label>
+
+  <Axe_Tomahawk.label>tomahawk</Axe_Tomahawk.label>
+  <Dart_Blowgun.label>dart</Dart_Blowgun.label>
+
+  <Ranged_Blowgun.label>blowgun</Ranged_Blowgun.label>
+  <Ranged_Blowgun.description>A simple tube used to launch darts. Dart is nearly harmless itself, but the poison on the dart can paralyzed enemies quickly, and also, can be fatal.</Ranged_Blowgun.description>
+
+
+</LanguageData>
