@@ -13,5 +13,6 @@
     <li>/</li>
     <li>1.2</li>
     <li IfModActive="CETeam.CombatExtended">CE</li>
+    <li IfModActive="ZzZombo.commission.GunMagazines">GunMagazines</li>
   </v1.2>
 </loadFolders>

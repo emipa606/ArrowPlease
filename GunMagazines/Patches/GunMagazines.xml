@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Ranged_Repeatingcrossbow"]</xpath>
+    <value>
+      <comps><li Class="ZzZomboRW.CompProperties_GunWithMagazines"/></comps>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName = "Ranged_Repeatingcrossbow"]/statBases</xpath>
+    <value>
+      <ZzZomboRW_GunWithMagazines_MaxAmmo>15</ZzZomboRW_GunWithMagazines_MaxAmmo>
+    </value>
+  </Operation>
+</Patch>
