@@ -3,7 +3,9 @@
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ThingDef[defName = "Ranged_Repeatingcrossbow"]</xpath>
     <value>
-      <comps><li Class="ZzZomboRW.CompProperties_GunWithMagazines"/></comps>
+      <comps>
+        <li Class="ZzZomboRW.CompProperties_GunWithMagazines" />
+      </comps>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">

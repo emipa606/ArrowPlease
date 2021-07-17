@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Arrow Please (Continued)</name>
   <packageId>Mlie.ArrowPlease</packageId>
@@ -8,29 +8,36 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter>
     <li>CETeam.CombatExtended</li>
+    <li>ZzZombo.commission.GunMagazines</li>
   </loadAfter>
-  <description>Update of ianchen31s mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of ianchen31s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1552903923
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+- Added CE support
 
-Support-chat:
-https://invite.gg/mlie
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Non-steam version:
-https://github.com/emipa606/ArrowPlease
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/ArrowPlease][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
-This mod adds several ranged weapons to Rimworld, including 4 neolithic weapons, 4 medieval weapons(all crossbows), and 4 siege engines, or , manned turrets.
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
+This mod adds several ranged weapons to Rimworld, including 4 neolithic weapons, 4 medieval weapons(all crossbows), and 4 siege engines, or , manned turrets. 
 Crossbows and siege engines both required separate research to attain.
 Also, there is an alternative version of all 3 vanilla bows and 2 added crossbows, which shoot out flaming arrows instead of regular arrows.
 
 Note that even the flaming arrows are less accurate, have smaller range, deal less damage, and spawned a bit less(should be 33% of all bows), they are still far more dangerous than regular arrows, and will increase game difficulty. This is not something unbalanced, this is intended, rather a buff to tribes.
-If you feel like getting really annoyed by those flaming arrows, just tell me, I'll consider nerfing them.
+If you feel like getting really annoyed by those flaming arrows, just tell me, I&apos;ll consider nerfing them.
 
 Now with an addon that adds medieval factions.
 https://steamcommunity.com/sharedfiles/filedetails/?id=1556416223
@@ -42,13 +49,13 @@ Neolithic weapons:
 Throwing torch (30 woodlogs)
 A stick on fire, and you can throw it. Simple.
 Throwing torch is far from accurate, and really need much effort to hit one. However, it may pay off, for the flame it induced. Torch can also be used in melee, with much higher hit chance, but still low chance for setting fire.
-The torch itself works like the building version, but with lesser light and warm induced, in exchange for longer lasting time. Throwing torch can't be fueled, though.
+The torch itself works like the building version, but with lesser light and warm induced, in exchange for longer lasting time. Throwing torch can&apos;t be fueled, though.
 
 Sling (10 Fabric or Leather)
 Just a piece of cloth for you to throw a stone. Inaccurate, but really painful if get hit by one unluckily.
 
-Tomahawk (50 stone or metal + 10 woodlogs)
-An axe for both melee and ranged purpose. While it can be thrown at enemies at distances, tomahawk actually deals much greater damage when used in melee.
+Tomahawk  (50 stone or metal + 10 woodlogs)
+An axe for both melee and ranged purpose. While it can be thrown at enemies at distances, tomahawk actually deals much greater damage when used in melee. 
 
 Blowgun (20 woodlogs + 10 Herbals)
 A tube which you can use to shoot out toxic darts. While darts really deal little damage, it can poison your opponents. Dart toxin mainly reduced consciousness, but will surely be fatal if overdosed.
@@ -56,15 +63,15 @@ A tube which you can use to shoot out toxic darts. While darts really deal littl
 Medieval weapons(require crossbow research):
 
 Light crossbow (50 woodlogs + 20 steel)
-Basic crossbow. Deals more damage than bows, while having less range and longer reloading time.
+Basic crossbow.  Deals more damage than bows, while having less range and longer reloading time. 
 Have a flaming arrow version.
 
 Arbalest (40 woodlogs + 50 steel)
 Advanced crossbow. Works out better in most conditions, including damage, accuracy, and range, but a bit worse in close combat due to its longer reloading time. Have a flaming arrow version.
 
 Waist-stretched crossbow (75 woodlogs + 55 steel)
-Something from ancient China. I'm not sure if there's a better translation, I just can't really find one.
-A much larger crossbow which takes much efforts just for reloading, but might pay off when someone's head getting shot off from really far away.
+Something from ancient China. I&apos;m not sure if there&apos;s a better translation, I just can&apos;t really find one.
+A much larger crossbow which takes much efforts just for reloading, but might pay off when someone&apos;s head getting shot off from really far away.
 Although it does cause greater damage and have a better shooting range, its overall performance is worse than arbalest due to its painfully long reloading time.
 
 Repeating crossbow (100 woodlogs + 30 steel)
@@ -76,8 +83,8 @@ Ballista (150 woodlogs + 30 steel, size1,2)
 A relatively small manned turret. Deals great damage if hit. Need woodlogs for reloading.
 
 Triple-bow crossbow (200 woodlogs + 60 steel, size3,3)
-Something from ancient China too. I'm not sure if there's a better translation, I supposed it to be sounded stranger if is translated triple-bow bed crossbow?
-Might looks exaggerated for having three bows on a single "crossbow", but this crossbow-like siege weapon can shoot bolt to a really far distance, and really deadly. Need woodlogs for reloading.
+Something from ancient China too. I&apos;m not sure if there&apos;s a better translation, I supposed it to be sounded stranger if is translated triple-bow bed crossbow?
+Might looks exaggerated for having three bows on a single &quot;crossbow&quot;, but this crossbow-like siege weapon can shoot bolt to a really far distance, and really deadly. Need woodlogs for reloading.
 
 Catapult (225 woodlogs + 40 steel + 20 cloth, size3,3)
 A device which you can launch specialized projectiles made by stonecutting. Have a large radius, but needs long reloading time.
@@ -102,15 +109,14 @@ You can butcher an unlucky corpse, make him/her into a projectile, and launch hi
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-Although this mod should be kind of completed, there still might be some bugs(or many, I'm afraid.), and really lots of imbalance. Please leave your comments for what should be adjusted.
-Also, I'm not a native English speaker, just notify me if you find some translation error.
+Although this mod should be kind of completed, there still might be some bugs(or many, I&apos;m afraid.), and really lots of imbalance. Please leave your comments for what should be adjusted.
+Also, I&apos;m not a native English speaker, just notify me if you find some translation error.
 
 Language:
 English
-????
-????
+繁體中文
+简体中文
 
-Direct download for those who had trouble with steam: https://www.nexusmods.com/rimworld/mods/274/?tab=description
 
 ChangeLog:
 2018/11/04 - Adjust some weapon tags for compatibility with the addon mod, and fix an error for flaming arbalest icon.
@@ -121,7 +127,20 @@ Trebuchet: slighty lower cooldown, increased contruction work
 Catapult: range increased by 3, and cooldown slighty decreased, but lower accuracy and a bit higher construction cost.
 2018/11/10 - balancing changes
 Ballista: range increased to 42, also increased damage a little, but getting more expensive(both building and bolts), a little inaccurate, and slower firing rate.
-By the way, ballista now gives better cover, but just don't rely on it, still worse than sandbags.
+By the way, ballista now gives better cover, but just don&apos;t rely on it, still worse than sandbags.
 Triple-bow crossbow - increase firing rate, but lower damage.
-Catapult - damage increased by 2</description>
+Catapult - damage increased by 2
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

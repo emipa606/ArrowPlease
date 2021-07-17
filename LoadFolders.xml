@@ -15,4 +15,10 @@
     <li IfModActive="CETeam.CombatExtended">CE</li>
     <li IfModActive="ZzZombo.commission.GunMagazines">GunMagazines</li>
   </v1.2>
+  <v1.3>
+    <li>/</li>
+    <li>1.3</li>
+    <li IfModActive="CETeam.CombatExtended">CE</li>
+    <li IfModActive="ZzZombo.commission.GunMagazines">GunMagazines</li>
+  </v1.3>
 </loadFolders>
