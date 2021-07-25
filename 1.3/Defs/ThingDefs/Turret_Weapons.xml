@@ -289,7 +289,7 @@
       <speed>80</speed>
     </projectile>
   </ThingDef>
-  <ThingDef Name="Turret_TrebuchetBase" ParentName="BuildingBase" Abstract="True">
+  <ThingDef Name="Turret_TrebuchetBase" ParentName="BaseArtilleryBuilding" Abstract="True">
     <thingClass>Building_TurretGun</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
@@ -314,9 +314,6 @@
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <fillPercent>0.4</fillPercent>
-    <thingCategories>
-      <li>BuildingsSecurity</li>
-    </thingCategories>
     <tickerType>Normal</tickerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
@@ -358,7 +355,7 @@
     </researchPrerequisites>
     <uiIconScale>1.1</uiIconScale>
   </ThingDef>
-  <ThingDef Name="BaseTrebuchetWeapon" Abstract="True">
+  <ThingDef Name="BaseTrebuchetWeapon" Abstract="True" ParentName="BaseArtilleryWeapon">
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
     <label>trebuchet error</label>
@@ -372,9 +369,6 @@
       <li>Artillery</li>
     </weaponTags>
     <comps>
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
       <li Class="CompProperties_ChangeableProjectile" />
     </comps>
     <building>
@@ -442,7 +436,7 @@
       </li>
     </verbs>
   </ThingDef>
-  <ThingDef Name="Turret_CatapultBase" ParentName="BuildingBase" Abstract="True">
+  <ThingDef Name="Turret_CatapultBase" ParentName="BaseArtilleryBuilding" Abstract="True">
     <thingClass>Building_TurretGun</thingClass>
     <drawerType>MapMeshAndRealTime</drawerType>
     <graphicData>
@@ -467,9 +461,6 @@
     <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <fillPercent>0.4</fillPercent>
-    <thingCategories>
-      <li>BuildingsSecurity</li>
-    </thingCategories>
     <tickerType>Normal</tickerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>Security</designationCategory>
@@ -511,7 +502,7 @@
     </researchPrerequisites>
     <uiIconScale>1.1</uiIconScale>
   </ThingDef>
-  <ThingDef Name="BaseCatapultWeapon" Abstract="True">
+  <ThingDef Name="BaseCatapultWeapon" Abstract="True" ParentName="BaseArtilleryWeapon">
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
     <label>catapult error</label>
@@ -522,12 +513,9 @@
     <destroyOnDrop>True</destroyOnDrop>
     <tradeability>None</tradeability>
     <weaponTags>
-      <li>Artillery</li>
+      <li>Artillery_BaseDestroyer</li>
     </weaponTags>
     <comps>
-      <li>
-        <compClass>CompEquippable</compClass>
-      </li>
       <li Class="CompProperties_ChangeableProjectile" />
     </comps>
     <building>
@@ -561,6 +549,7 @@
       <turretTopDrawSize>4</turretTopDrawSize>
       <buildingTags>
         <li>Artillery_BaseDestroyer</li>
+        <li>Artillery_MannedMortar</li>
       </buildingTags>
     </building>
     <uiIconPath>Things/Weapons/CatapultIcon</uiIconPath>
@@ -583,6 +572,7 @@
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <hasStandardCommand>true</hasStandardCommand>
         <warmupTime>3.0</warmupTime>
+        <isMortar>true</isMortar>
         <forcedMissRadius>3.0</forcedMissRadius>
         <requireLineOfSight>false</requireLineOfSight>
         <minRange>5</minRange>
