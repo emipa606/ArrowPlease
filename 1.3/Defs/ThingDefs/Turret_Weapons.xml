@@ -350,7 +350,7 @@
       <li>PlaceWorker_NotUnderRoof</li>
       <li>PlaceWorker_TurretTop</li>
     </placeWorkers>
-    <researchPrerequisites>
+    <researchPrerequisites Inherit="False">
       <li>Siege_Engine</li>
     </researchPrerequisites>
     <uiIconScale>1.1</uiIconScale>
@@ -497,7 +497,7 @@
       <li>PlaceWorker_NotUnderRoof</li>
       <li>PlaceWorker_TurretTop</li>
     </placeWorkers>
-    <researchPrerequisites>
+    <researchPrerequisites Inherit="False">
       <li>Siege_Engine</li>
     </researchPrerequisites>
     <uiIconScale>1.1</uiIconScale>

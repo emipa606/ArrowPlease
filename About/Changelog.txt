@@ -1,5 +1,8 @@
 # Changelog for ArrowPlease
 
+1.0.7.0 - Fixed research-tree and prerequisites of turrets, not able to fix the CE error
+
+
 1.0.6.0 - Should no longer cause errors when viewing the infocard for the catapult/trebuche
 
 
