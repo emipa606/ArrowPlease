@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HugsLib.UpdateFeatureDef Abstract="true" Name="UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef Abstract="true" Name="ArrowPlease_UpdateFeatureBase">
     <modNameReadable>ArrowPlease</modNameReadable>
     <linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2064675036</linkUrl>
   </HugsLib.UpdateFeatureDef>
-  <HugsLib.UpdateFeatureDef ParentName="UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef ParentName="ArrowPlease_UpdateFeatureBase">
     <defName>ArrowPlease_1_0_4_0</defName>
     <assemblyVersion>1.0.4.0</assemblyVersion>
     <content>The patches for Combat Extended are now included in the mod so there is no longer a need for my CE Continued Mods Support-mod.

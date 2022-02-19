@@ -6,6 +6,7 @@ Update of ianchen31s mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1552903923
 
 - [strike]Added CE support[/strike] Patches now included in the main CE-mod instead
+- The user Tec has made a temporary CE patch until CE updates https://steamcommunity.com/sharedfiles/filedetails/?id=2723720602]Other CE Patches
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -97,20 +98,6 @@ Language:
 English
 繁體中文
 简体中文
-
-
-ChangeLog:
-2018/11/04 - Adjust some weapon tags for compatibility with the addon mod, and fix an error for flaming arbalest icon.
-2018/11/05 - Fix the bug that trebuchet/catapult ammo production workorder count stoneblocks instead of ammos.
-Balancing changes:
-Waist-stretched crossbow: range increased by 1, but cooldown also slighty increased.
-Trebuchet: slighty lower cooldown, increased contruction work
-Catapult: range increased by 3, and cooldown slighty decreased, but lower accuracy and a bit higher construction cost.
-2018/11/10 - balancing changes
-Ballista: range increased to 42, also increased damage a little, but getting more expensive(both building and bolts), a little inaccurate, and slower firing rate.
-By the way, ballista now gives better cover, but just don't rely on it, still worse than sandbags.
-Triple-bow crossbow - increase firing rate, but lower damage.
-Catapult - damage increased by 2
 
 
 ![Image](https://i.imgur.com/PwoNOj4.png)
