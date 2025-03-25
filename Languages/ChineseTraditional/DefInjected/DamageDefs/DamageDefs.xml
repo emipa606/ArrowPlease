@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <Flaming_Arrow.label>火箭</Flaming_Arrow.label>
   <Flaming_Arrow.deathMessage>{0} 被火箭燒死。</Flaming_Arrow.deathMessage>

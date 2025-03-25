@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="BaseMeleeWeapon">
     <defName>Ranged_Torch</defName>
@@ -37,17 +37,8 @@
         <glowColor>(252,187,113,0)</glowColor>
       </li>
       <li Class="CompProperties_Forbiddable" />
-      <li Class="CompProperties_Refuelable">
-        <fuelConsumptionRate>1.8</fuelConsumptionRate>
-        <fuelCapacity>20.0</fuelCapacity>
-        <fuelConsumptionPerTickInRain>0.0006</fuelConsumptionPerTickInRain>
-        <fuelFilter>
-          <thingDefs>
-            <li>WoodLog</li>
-          </thingDefs>
-        </fuelFilter>
-        <destroyOnNoFuel>true</destroyOnNoFuel>
-        <initialFuelPercent>1</initialFuelPercent>
+      <li Class="CompProperties_Lifespan">
+        <lifespanTicks>660000</lifespanTicks>
       </li>
       <li Class="CompProperties_HeatPusher">
         <heatPerSecond>16</heatPerSecond>
