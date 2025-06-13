@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make catapult projectiles -->
+  <Make_CatapultShells.label>make catapult projectiles</Make_CatapultShells.label>
+  <!-- EN: Reshaped stone chunks for catapult use. -->
+  <Make_CatapultShells.description>Reshaped stone chunks for catapult use.</Make_CatapultShells.description>
+  <!-- EN: Make catapult projectiles. -->
+  <Make_CatapultShells.jobString>Make catapult projectiles.</Make_CatapultShells.jobString>
+  <!-- EN: make catapult projectiles -->
+  <Make_CatapultShellsA.label>make catapult projectiles</Make_CatapultShellsA.label>
+  <!-- EN: Mix different stone blocks for catapult projectiles. -->
+  <Make_CatapultShellsA.description>Mix different stone blocks for catapult projectiles.</Make_CatapultShellsA.description>
+  <!-- EN: Make trebuchet projectiles. -->
+  <Make_CatapultShellsA.jobString>Make trebuchet projectiles.</Make_CatapultShellsA.jobString>
+  <!-- EN: make trebuchet projectiles -->
+  <Make_TrebuchetShells.label>make trebuchet projectiles</Make_TrebuchetShells.label>
+  <!-- EN: Reshaped stone chunk for trebuchet use. -->
+  <Make_TrebuchetShells.description>Reshaped stone chunk for trebuchet use.</Make_TrebuchetShells.description>
+  <!-- EN: Make trebuchet projectiles. -->
+  <Make_TrebuchetShells.jobString>Make trebuchet projectiles.</Make_TrebuchetShells.jobString>
+  <!-- EN: make trebuchet projectiles -->
+  <Make_TrebuchetShellsA.label>make trebuchet projectiles</Make_TrebuchetShellsA.label>
+  <!-- EN: Mix different stone blocks for trebuchet projectiles. -->
+  <Make_TrebuchetShellsA.description>Mix different stone blocks for trebuchet projectiles.</Make_TrebuchetShellsA.description>
+  <!-- EN: Make trebuchet projectiles. -->
+  <Make_TrebuchetShellsA.jobString>Make trebuchet projectiles.</Make_TrebuchetShellsA.jobString>
+  <!-- EN: make human trebuchet projectiles -->
+  <MakeHumanRound.label>make human trebuchet projectiles</MakeHumanRound.label>
+  <!-- EN: Reshaped a human corpse for trebuchet use. -->
+  <MakeHumanRound.description>Reshaped a human corpse for trebuchet use.</MakeHumanRound.description>
+  <!-- EN: Make human trebuchet projectiles. -->
+  <MakeHumanRound.jobString>Make human trebuchet projectiles.</MakeHumanRound.jobString>
+</LanguageData>

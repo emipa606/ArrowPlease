@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: tomahawk -->
+  <Axe_Tomahawk.label>tomahawk</Axe_Tomahawk.label>
+  <!-- EN: dart -->
+  <Dart_Blowgun.label>dart</Dart_Blowgun.label>
+  <!-- EN: blowgun -->
+  <Ranged_Blowgun.label>blowgun</Ranged_Blowgun.label>
+  <!-- EN: A simple tube used to launch darts. Dart is nearly harmless itself, but the poison on the dart can paralyzed enemies quickly, and also, can be fatal. -->
+  <Ranged_Blowgun.description>A simple tube used to launch darts. Dart is nearly harmless itself, but the poison on the dart can paralyzed enemies quickly, and also, can be fatal.</Ranged_Blowgun.description>
+  <!-- EN: blowgun -->
+  <Ranged_Blowgun.verbs.Verb_Shoot.label>blowgun</Ranged_Blowgun.verbs.Verb_Shoot.label>
+  <!-- EN: sling -->
+  <Ranged_Slinger.label>sling</Ranged_Slinger.label>
+  <!-- EN: A piece of cloth, used to shoot stones. Very primitive, but still can cause casualty. Its light weight makes it ideal for hit-and-run. -->
+  <Ranged_Slinger.description>A piece of cloth, used to shoot stones. Very primitive, but still can cause casualty. Its light weight makes it ideal for hit-and-run.</Ranged_Slinger.description>
+  <!-- EN: stone -->
+  <Ranged_Slinger.tools.stone.label>stone</Ranged_Slinger.tools.stone.label>
+  <!-- EN: sling -->
+  <Ranged_Slinger.verbs.Verb_Shoot.label>sling</Ranged_Slinger.verbs.Verb_Shoot.label>
+  <!-- EN: tomahawk -->
+  <Ranged_Tomahawk.label>tomahawk</Ranged_Tomahawk.label>
+  <!-- EN: A small axe that can be used as both ranged or melee purposes. Not quite accurate when thrown, though. -->
+  <Ranged_Tomahawk.description>A small axe that can be used as both ranged or melee purposes. Not quite accurate when thrown, though.</Ranged_Tomahawk.description>
+  <!-- EN: handle -->
+  <Ranged_Tomahawk.tools.handle.label>handle</Ranged_Tomahawk.tools.handle.label>
+  <!-- EN: poll -->
+  <Ranged_Tomahawk.tools.poll.label>poll</Ranged_Tomahawk.tools.poll.label>
+  <!-- EN: edge -->
+  <Ranged_Tomahawk.tools.edge.label>edge</Ranged_Tomahawk.tools.edge.label>
+  <!-- EN: tomahawk -->
+  <Ranged_Tomahawk.verbs.Verb_Shoot.label>tomahawk</Ranged_Tomahawk.verbs.Verb_Shoot.label>
+  <!-- EN: throwing torch -->
+  <Ranged_Torch.label>throwing torch</Ranged_Torch.label>
+  <!-- EN: A tool for lighting an area. But why not share your fire with your enemies? Torch is really not something good for throwing, though. -->
+  <Ranged_Torch.description>A tool for lighting an area. But why not share your fire with your enemies? Torch is really not something good for throwing, though.</Ranged_Torch.description>
+  <!-- EN: stick -->
+  <Ranged_Torch.tools.stick.label>stick</Ranged_Torch.tools.stick.label>
+  <!-- EN: fire -->
+  <Ranged_Torch.tools.fire-0.label>fire</Ranged_Torch.tools.fire-0.label>
+  <!-- EN: fire -->
+  <Ranged_Torch.tools.fire-1.label>fire</Ranged_Torch.tools.fire-1.label>
+  <!-- EN: throwing torch -->
+  <Ranged_Torch.verbs.Verb_Shoot.label>throwing torch</Ranged_Torch.verbs.Verb_Shoot.label>
+  <!-- EN: stone -->
+  <Stone_Slinger.label>stone</Stone_Slinger.label>
+  <!-- EN: torch -->
+  <Torch_Torch.label>torch</Torch_Torch.label>
+</LanguageData>

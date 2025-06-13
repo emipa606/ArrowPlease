@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: arbalest arrow -->
+  <Arrow_Arbalest.label>arbalest arrow</Arrow_Arbalest.label>
+  <!-- EN: light crossbow arrow -->
+  <Arrow_Crossbow.label>light crossbow arrow</Arrow_Crossbow.label>
+  <!-- EN: Repeating crossbow arrow -->
+  <Arrow_Repeatingcrossbow.label>Repeating crossbow arrow</Arrow_Repeatingcrossbow.label>
+  <!-- EN: waist-stretched crossbow arrow -->
+  <Arrow_Waistcrossbow.label>waist-stretched crossbow arrow</Arrow_Waistcrossbow.label>
+  <!-- EN: arbalest(flaming arrow) -->
+  <Flame_Arbalest.label>arbalest(flaming arrow)</Flame_Arbalest.label>
+  <!-- EN: Stronger and more powerful, these deadly weapons are nightmare for those who aren't fully armed. Arbalests are even more dangerous if shooting flaming arrows. -->
+  <Flame_Arbalest.description>Stronger and more powerful, these deadly weapons are nightmare for those who aren't fully armed. Arbalests are even more dangerous if shooting flaming arrows.</Flame_Arbalest.description>
+  <!-- EN: limb -->
+  <Flame_Arbalest.tools.limb.label>limb</Flame_Arbalest.tools.limb.label>
+  <!-- EN: arbalest(flaming arrow) -->
+  <Flame_Arbalest.verbs.Verb_Shoot.label>arbalest(flaming arrow)</Flame_Arbalest.verbs.Verb_Shoot.label>
+  <!-- EN: light crossbow(flaming arrow) -->
+  <Flame_Crossbow.label>light crossbow(flaming arrow)</Flame_Crossbow.label>
+  <!-- EN: Relatively simple and cheap, light crossbows deal greater damage than regular bows, in exchange for longer reloading time and shorter range. Crossbow can be used to set fire as well. -->
+  <Flame_Crossbow.description>Relatively simple and cheap, light crossbows deal greater damage than regular bows, in exchange for longer reloading time and shorter range. Crossbow can be used to set fire as well.</Flame_Crossbow.description>
+  <!-- EN: limb -->
+  <Flame_Crossbow.tools.limb.label>limb</Flame_Crossbow.tools.limb.label>
+  <!-- EN: light crossbow(flaming arrow) -->
+  <Flame_Crossbow.verbs.Verb_Shoot.label>light crossbow(flaming arrow)</Flame_Crossbow.verbs.Verb_Shoot.label>
+  <!-- EN: flaming arbalest arrow -->
+  <FlameArrow_Arbalest.label>flaming arbalest arrow</FlameArrow_Arbalest.label>
+  <!-- EN: flaming light crossbow arrow -->
+  <FlameArrow_Crossbow.label>flaming light crossbow arrow</FlameArrow_Crossbow.label>
+  <!-- EN: arbalest -->
+  <Ranged_Arbalest.label>arbalest</Ranged_Arbalest.label>
+  <!-- EN: Stronger and more powerful, these deadly weapons are nightmare for those who aren't fully armed. -->
+  <Ranged_Arbalest.description>Stronger and more powerful, these deadly weapons are nightmare for those who aren't fully armed.</Ranged_Arbalest.description>
+  <!-- EN: limb -->
+  <Ranged_Arbalest.tools.limb.label>limb</Ranged_Arbalest.tools.limb.label>
+  <!-- EN: arbalest -->
+  <Ranged_Arbalest.verbs.Verb_Shoot.label>arbalest</Ranged_Arbalest.verbs.Verb_Shoot.label>
+  <!-- EN: light crossbow -->
+  <Ranged_Crossbow.label>light crossbow</Ranged_Crossbow.label>
+  <!-- EN: Relatively simple and cheap, light crossbows deal greater damage than regular bows, in exchange for longer reloading time and shorter range. -->
+  <Ranged_Crossbow.description>Relatively simple and cheap, light crossbows deal greater damage than regular bows, in exchange for longer reloading time and shorter range.</Ranged_Crossbow.description>
+  <!-- EN: limb -->
+  <Ranged_Crossbow.tools.limb.label>limb</Ranged_Crossbow.tools.limb.label>
+  <!-- EN: light crossbow -->
+  <Ranged_Crossbow.verbs.Verb_Shoot.label>light crossbow</Ranged_Crossbow.verbs.Verb_Shoot.label>
+  <!-- EN: repeating crossbow -->
+  <Ranged_Repeatingcrossbow.label>repeating crossbow</Ranged_Repeatingcrossbow.label>
+  <!-- EN: Repeating crossbow, or Chu-Ko-Nu, a kind of crossbow that can be fired in a burst, while doesn't really as powerful as other crossbows. -->
+  <Ranged_Repeatingcrossbow.description>Repeating crossbow, or Chu-Ko-Nu, a kind of crossbow that can be fired in a burst, while doesn't really as powerful as other crossbows.</Ranged_Repeatingcrossbow.description>
+  <!-- EN: limb -->
+  <Ranged_Repeatingcrossbow.tools.limb.label>limb</Ranged_Repeatingcrossbow.tools.limb.label>
+  <!-- EN: repeating crossbow -->
+  <Ranged_Repeatingcrossbow.verbs.Verb_Shoot.label>repeating crossbow</Ranged_Repeatingcrossbow.verbs.Verb_Shoot.label>
+  <!-- EN: waist-stretched crossbow -->
+  <Ranged_Waistcrossbow.label>waist-stretched crossbow</Ranged_Waistcrossbow.label>
+  <!-- EN: A kind of crossbow that requires user to fully stetched out on the ground when reloading. Really powerful, but far from rapid. -->
+  <Ranged_Waistcrossbow.description>A kind of crossbow that requires user to fully stetched out on the ground when reloading. Really powerful, but far from rapid.</Ranged_Waistcrossbow.description>
+  <!-- EN: limb -->
+  <Ranged_Waistcrossbow.tools.limb.label>limb</Ranged_Waistcrossbow.tools.limb.label>
+  <!-- EN: waist-stretched crossbow -->
+  <Ranged_Waistcrossbow.verbs.Verb_Shoot.label>waist-stretched crossbow</Ranged_Waistcrossbow.verbs.Verb_Shoot.label>
+</LanguageData>

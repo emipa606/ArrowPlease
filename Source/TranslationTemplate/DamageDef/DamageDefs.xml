@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: bolt -->
+  <Ballista.label>bolt</Ballista.label>
+  <!-- EN: {0} has been shot to death by a bolt. -->
+  <Ballista.deathMessage>{0} has been shot to death by a bolt.</Ballista.deathMessage>
+  <!-- EN: dart -->
+  <Dart_Blowgun.label>dart</Dart_Blowgun.label>
+  <!-- EN: {0} has been shot to death by a single blowgun. -->
+  <Dart_Blowgun.deathMessage>{0} has been shot to death by a single blowgun.</Dart_Blowgun.deathMessage>
+  <!-- EN: flaming arrow -->
+  <Flaming_Arrow.label>flaming arrow</Flaming_Arrow.label>
+  <!-- EN: {0} has been burned to death by a flaming arrow. -->
+  <Flaming_Arrow.deathMessage>{0} has been burned to death by a flaming arrow.</Flaming_Arrow.deathMessage>
+  <!-- EN: stone chunk -->
+  <Trebuchet.label>stone chunk</Trebuchet.label>
+  <!-- EN: {0} has been smashed to death by a stone chunk launched by trebuchet. -->
+  <Trebuchet.deathMessage>{0} has been smashed to death by a stone chunk launched by trebuchet.</Trebuchet.deathMessage>
+  <!-- EN: flaming stone chunk -->
+  <TrebuchetF.label>flaming stone chunk</TrebuchetF.label>
+  <!-- EN: {0} has burned to death. -->
+  <TrebuchetF.deathMessage>{0} has burned to death.</TrebuchetF.deathMessage>
+</LanguageData>

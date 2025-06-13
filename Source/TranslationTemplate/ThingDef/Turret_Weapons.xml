@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: ballista bolt -->
+  <Bolt_Ballista.label>ballista bolt</Bolt_Ballista.label>
+  <!-- EN: triple-bow crossbow bolt -->
+  <Bolt_Triplecrossbow.label>triple-bow crossbow bolt</Bolt_Triplecrossbow.label>
+  <!-- EN: ballista -->
+  <Turret_Ballista.label>ballista</Turret_Ballista.label>
+  <!-- EN: A crossbow-like siege weapon which can launch large bolt toward your opponents. Shoots slow, but accurate, and deadly. -->
+  <Turret_Ballista.description>A crossbow-like siege weapon which can launch large bolt toward your opponents. Shoots slow, but accurate, and deadly.</Turret_Ballista.description>
+  <!-- EN: bolt storage -->
+  <Turret_Ballista.comps.CompRefuelable.fuelGizmoLabel>bolt storage</Turret_Ballista.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until bolts used up. -->
+  <Turret_Ballista.comps.CompRefuelable.fuelLabel>Shots until bolts used up.</Turret_Ballista.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs bolts -->
+  <Turret_Ballista.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs bolts</Turret_Ballista.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: ballista -->
+  <Turret_BallistaGun.label>ballista</Turret_BallistaGun.label>
+  <!-- EN: Main part of ballista -->
+  <Turret_BallistaGun.description>Main part of ballista</Turret_BallistaGun.description>
+  <!-- EN: ballista -->
+  <Turret_BallistaGun.verbs.Verb_Shoot.label>ballista</Turret_BallistaGun.verbs.Verb_Shoot.label>
+  <!-- EN: catapult -->
+  <Turret_Catapult.label>catapult</Turret_Catapult.label>
+  <!-- EN: A siege weapon that can shoot stones toward your enemies. -->
+  <Turret_Catapult.description>A siege weapon that can shoot stones toward your enemies.</Turret_Catapult.description>
+  <!-- EN: catapult -->
+  <Turret_CatapultGun.label>catapult</Turret_CatapultGun.label>
+  <!-- EN: Main part of catapult, which you can used to destroy your enemies from distances. -->
+  <Turret_CatapultGun.description>Main part of catapult, which you can used to destroy your enemies from distances.</Turret_CatapultGun.description>
+  <!-- EN: catapult -->
+  <Turret_CatapultGun.verbs.Verb_Shoot.label>catapult</Turret_CatapultGun.verbs.Verb_Shoot.label>
+  <!-- EN: trebuchet -->
+  <Turret_Trebuchet.label>trebuchet</Turret_Trebuchet.label>
+  <!-- EN: An enormous siege engine designed to smash walls from distance. You can launch stones toward your opponents. -->
+  <Turret_Trebuchet.description>An enormous siege engine designed to smash walls from distance. You can launch stones toward your opponents.</Turret_Trebuchet.description>
+  <!-- EN: trebuchet -->
+  <Turret_TrebuchetGun.label>trebuchet</Turret_TrebuchetGun.label>
+  <!-- EN: Main part of trebuchet, which you can used to destroy your enemies from distances. -->
+  <Turret_TrebuchetGun.description>Main part of trebuchet, which you can used to destroy your enemies from distances.</Turret_TrebuchetGun.description>
+  <!-- EN: trebuchet -->
+  <Turret_TrebuchetGun.verbs.Verb_Shoot.label>trebuchet</Turret_TrebuchetGun.verbs.Verb_Shoot.label>
+  <!-- EN: triple-bow crossbow -->
+  <Turret_Triplecrossbow.label>triple-bow crossbow</Turret_Triplecrossbow.label>
+  <!-- EN: Triple-bow crossbow, a kind of bed crossbow, actually composed of three bows and is set on a bed-like structure. It can shoot the farthest, and the most powerful bolts. -->
+  <Turret_Triplecrossbow.description>Triple-bow crossbow, a kind of bed crossbow, actually composed of three bows and is set on a bed-like structure. It can shoot the farthest, and the most powerful bolts.</Turret_Triplecrossbow.description>
+  <!-- EN: bolt storage -->
+  <Turret_Triplecrossbow.comps.CompRefuelable.fuelGizmoLabel>bolt storage</Turret_Triplecrossbow.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until bolts used up. -->
+  <Turret_Triplecrossbow.comps.CompRefuelable.fuelLabel>Shots until bolts used up.</Turret_Triplecrossbow.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Cannot shoot: Needs bolts -->
+  <Turret_Triplecrossbow.comps.CompRefuelable.outOfFuelMessage>Cannot shoot: Needs bolts</Turret_Triplecrossbow.comps.CompRefuelable.outOfFuelMessage>
+  <!-- EN: triple-bow crossbow -->
+  <Turret_TriplecrossbowGun.label>triple-bow crossbow</Turret_TriplecrossbowGun.label>
+  <!-- EN: Main part of triple-bow crossbow -->
+  <Turret_TriplecrossbowGun.description>Main part of triple-bow crossbow</Turret_TriplecrossbowGun.description>
+  <!-- EN: triple-bow crossbow -->
+  <Turret_TriplecrossbowGun.verbs.Verb_Shoot.label>triple-bow crossbow</Turret_TriplecrossbowGun.verbs.Verb_Shoot.label>
+</LanguageData>
